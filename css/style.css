@@ -1,0 +1,58 @@
+body {
+	overflow-x: hidden;
+}
+
+
+/* ---- TOP ----- */
+
+#navright {
+	margin-left: 20%;
+}
+.brand-image {
+	width: 150px;
+	height: 120px;
+	margin-left: 45%;
+	/*margin-top: 10px;*/
+	margin-bottom: 20px;
+	margin-top: 10px;
+}
+
+.nav-container {
+	height: 50px;
+	z-index: 10000;
+	
+}
+
+#myNavbar {
+	margin-left: 30%;
+}
+
+.brand-container {
+	/*margin-left: 45%;*/
+}
+
+.myaccount {
+	text-align: center;
+	z-index: -1;
+}
+
+/* ---- LOG IN ----- */
+
+.login {
+	border: 1px solid #dfe3ee;
+	height: 350px;
+	width: 300px;
+	margin-right: 5px;
+	margin-left: 40%;
+	padding-left: 10px;
+}
+
+.register {
+	border: 1px solid #dfe3ee;
+	height: 350px;
+	width: 300px;
+	margin-right: 5px;
+	margin-left: 40%;
+	padding-left: 10px;
+}
+
