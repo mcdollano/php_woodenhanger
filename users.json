@@ -21,6 +21,30 @@
         "firstname": "mark",
         "lastname": "dollano",
         "username": "mark",
-        "password": "markmark"
+        "password": "secret"
+    },
+    {
+        "firstname": "Ahaha",
+        "lastname": "Agaga",
+        "username": "Aagag",
+        "password": "123"
+    },
+    {
+        "firstname": "asdas",
+        "lastname": "asdasd",
+        "username": "asda",
+        "password": "asd"
+    },
+    {
+        "firstname": "hello",
+        "lastname": "world",
+        "username": "hello123",
+        "password": "hello"
+    },
+    {
+        "firstname": "mark",
+        "lastname": "dollano",
+        "username": "asdasd",
+        "password": "smile"
     }
 ]

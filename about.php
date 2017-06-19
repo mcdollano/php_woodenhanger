@@ -1,7 +1,7 @@
 <?php 
 
 function get_title(){
-		echo "Wooden Hanger PH";
+		echo "About Us";
 	}
 
 function display_content(){

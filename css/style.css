@@ -1,5 +1,12 @@
 body {
 	overflow-x: hidden;
+	text-align: center;
+	height: 100%;
+	position: relative;
+	/*overflow-y: hidden;*/
+	/*overflow:auto;*/
+	/*margin-bottom: 100%;*/
+	/*font-family: 'Satisfy', cursive;*/
 }
 
 
@@ -11,15 +18,20 @@ body {
 .brand-image {
 	width: 150px;
 	height: 120px;
-	margin-left: 45%;
-	/*margin-top: 10px;*/
+	/*margin-left: 45%;*/
+	margin-top: 10px;
 	margin-bottom: 20px;
 	margin-top: 10px;
+}
+
+.navbar {
+	width: 100vw;
 }
 
 .nav-container {
 	height: 50px;
 	z-index: 10000;
+	width: 100vw;
 	
 }
 
@@ -28,12 +40,68 @@ body {
 }
 
 .brand-container {
-	/*margin-left: 45%;*/
+	margin-left: 45%;
 }
 
 .myaccount {
 	text-align: center;
 	z-index: -1;
+}
+
+/* -------- FOOTER ----------*/
+
+.footer-container {
+	margin-top: 50px;
+	background-color: rgb(160, 254, 200);
+	height: 150px;
+	width: 100vw;
+/*	margin-bottom: 50px;*/
+
+}
+
+/*.f-wrapper {
+	position: absolute;
+	bottom: 0px;
+	margin-top: 100px;
+
+}*/
+
+.sub-footer {
+	margin-top: 20px;
+
+}
+
+.sub-footer > h6 {
+	text-decoration: none;
+}
+
+.last-row {
+	text-align: center;
+
+}
+
+.footer > p {
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+
+
+#footer{
+    /*position:fixed;*/
+    height:50px;
+    background-color: black;
+    bottom:0px;
+    left:0px;
+    right:0px;
+    margin-bottom:0px;
+    text-align: center;
+	color: white;
+	/*position: absolute;*/
+
+}
+
+.footer-wrapper {
+     min-height:100%;
 }
 
 /* ---- LOG IN ----- */
@@ -45,6 +113,12 @@ body {
 	margin-right: 5px;
 	margin-left: 40%;
 	padding-left: 10px;
+	margin-top: 20px;
+}
+
+.login-content {
+	   
+
 }
 
 .register {
@@ -54,5 +128,42 @@ body {
 	margin-right: 5px;
 	margin-left: 40%;
 	padding-left: 10px;
+}
+
+/*---------- INDEX ----------*/
+
+.banner-container > img {
+	width: 100%;
+}
+
+.featured-container > img {
+	width: 60%;
+}
+
+.btn-shop-now {
+	width: 150px;
+	height: 50px;
+	background-color: black;
+	color: white;
+	margin-top: 20px;
+}
+
+
+/*---- PRODUCTS -------*/
+
+#itemImage {
+	width: 250px;
+	height: 250px;
+}
+
+.thumbnail {
+	margin-left: 20px;
+	height: 500px;
+}
+
+#purchase-button {
+	background-color: rgb(160, 254, 200);
+	color: black;
+	border: 1px solid grey;
 }
 
