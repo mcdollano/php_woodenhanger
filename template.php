@@ -16,10 +16,6 @@ session_start();
 <body>
 
 <?php
-echo $_SESSION['firstname'];
-?>
-
-<?php
 require_once 'lib/script.php';
 ?>
 

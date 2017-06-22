@@ -1,4 +1,8 @@
 	<img src="logo/wh.png" class="brand-image">
+	<?php
+// echo $_SESSION['firstname'];
+?>
+
 	<nav class="navbar navbar-default">
 		<div class="nav-container">		
 			<div class="navbar-header">
@@ -19,4 +23,6 @@
 			</div><!--myNavbar-->
 		</div><!--nav-container-->
 	</nav>
-			
+
+
+
